@@ -1,0 +1,26 @@
+{
+  "predicate": "Any",
+  "rules": [
+    {
+      "field": "From",
+      "predicate": "contains",
+      "value": "no-reply@amazonpay.in"
+    },
+    {
+      "field": "From",
+      "predicate": "contains",
+      "value": "noreply@github.com"
+    },
+    {
+      "field": "Subject",
+      "predicate": "contains",
+      "value": "Verify your email"
+    },
+    {
+      "field": "Received Date/Time",
+      "predicate": "less than",
+      "value": "7"
+    }
+  ],
+  "actions": ["mark_as_read"]
+}
