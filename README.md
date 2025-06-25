@@ -81,7 +81,7 @@ json
     {
       "field": "From",
       "predicate": "contains",
-      "value": "manthanwork0597@gmail.com"
+      "value": "manthaork97@gmail.com"
     },
     {
       "field": "Received Date/Time",
